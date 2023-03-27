@@ -1,0 +1,19 @@
+for command line tools related to mongodb
+https://docs.mongodb.com/database-tools/
+vvvvvvvvvvvvvvv
+To run MongoDB (i.e. the mongod process) as a macOS service, run:
+
+> brew services start mongodb-community@4.0
+
+to Stop
+> brew services stop mongodb-community@4.0
+^^^^^^^^^^^^^^
+
+
+vvvvvvvvvvvvvvv
+To verify that MongoDB is running, perform one of the following:
+
+If you started MongoDB as a macOS service:
+> brew services list
+
+^^^^^^^^^^^^^^
